@@ -6,6 +6,10 @@ import {MatCardModule} from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar'; 
 import {MatIconModule} from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list'; 
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule } from '@angular/material/form-field';
+import {MatDividerModule} from '@angular/material/divider'; 
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'; 
 
 @NgModule({
   declarations: [],
@@ -17,6 +21,10 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatCardModule,
     MatToolbarModule,
     MatIconModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatDividerModule,
+    MatProgressSpinnerModule,
     MatGridListModule
   ]
 })
