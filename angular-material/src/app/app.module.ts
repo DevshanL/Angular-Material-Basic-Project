@@ -6,13 +6,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialDesignModule} from "./material-design/material-design.module";
 import { LoginComponent} from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { BlogPageComponent } from './blog/blog-page/blog-page.component';
+import { SingleBlogComponent } from './blog/single-blog/single-blog.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    BlogPageComponent,
+    SingleBlogComponent
   ],
   imports: [
     BrowserModule,
